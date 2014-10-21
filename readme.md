@@ -1,6 +1,15 @@
 # Frontend Development Setup on a Mac
 
-Inspired by [https://github.com/nicolashery](https://github.com/nicolashery), I have come up with my list of utilities and even an install script that takes care of the heavy lifting for you. This will run you through the process of installing the latest and greatest ruby, node, browsers and other great toolkits that will have you up and running no no time! Great for a Front End Developer focused on Sass and Javascript. 
+
+TODO - 
+- Update to Yosemite
+- homebrew cask
+- add developer tools experiment flags on chrome chrome://flags
+- look over rbenv
+- enable blackboxing [ manage framework blackboxing on chrome]
+- Allow apps downloaded from anywhere
+- brew install zsh
+- change NVM to wget
 
 This document assumes you're running a fresh copy of **OS X Mavericks**.
 
@@ -107,6 +116,13 @@ Homebrew keeps older versions of packages installed, in case you want to roll ba
 To see what you have installed (with their version numbers):
 
     $ brew list --versions
+    
+##NVM
+brew install nvm
+add this to .zshrc
+
+ export NVM_DIR=~/.nvm 
+ source $(brew --prefix nvm)/nvm.sh
     
 ##Ruby and RBEnv
 
