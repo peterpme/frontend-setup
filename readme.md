@@ -5,11 +5,12 @@ TODO -
 - Update to Yosemite
 - homebrew cask
 - add developer tools experiment flags on chrome chrome://flags
-- look over rbenv
+- look over rbenv https://github.com/sstephenson/rbenv
 - enable blackboxing [ manage framework blackboxing on chrome]
-- Allow apps downloaded from anywhere
+- Allow apps downloaded from anywhere system preferences
 - brew install zsh
-- change NVM to wget
+- change NVM to wget https://github.com/creationix/nvm
+- 
 
 This document assumes you're running a fresh copy of **OS X Mavericks**.
 
