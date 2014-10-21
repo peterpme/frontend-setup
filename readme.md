@@ -8,6 +8,8 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 
 - [System update](#system-update)
 - [Reset Modifier Keys](#reset-modifier-keys)
+- [Homebrew](#homebrew)
+- [Homebrew Cask](#homebrew-cask)
 - [Maximum Awesome](#maximum-awesome)
 - [Google Chrome](#google-chrome)
 - [Google Chrome Canary](#google-chrome-canary)
@@ -15,7 +17,6 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [Slate](#https://github.com/jigish/slate)
 - [VirtualBox](#virtualbox)
 - [Sublime Text](#sublime-text)
-- [Homebrew](#homebrew)
 - [Ruby & Rbenv](#ruby)
 - [Git](#git)
 - [Sublime Text](#sublime-text)
@@ -63,7 +64,7 @@ Once you reach the downloads page, search for "command line tools", and download
 
 Finally, we can install Hombrew! In the terminal paste the following line (without the `$`), hit **Enter**, and follow the steps on the screen:
 
-    $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 One thing we need to do is tell the system to use programs installed by Hombrew (in `/usr/local/bin`) rather than the OS default if it exists. We do this by adding `/usr/local/bin` to your `$PATH` environment variable:
 
@@ -130,7 +131,14 @@ Ruby does come pre-installed on Mac, but you probably shouldn't be tinkering aro
     $ type rbenv
     #=> "rbenv is a function"
     ~~~
-	
+    
+## Homebrew Cask
+
+brew install caskroom/cask/brew-cask
+brew cask install google-chrome
+
+## SoundCleod
+https://github.com/salomvary/soundcleod
 
 ##Maximum Awesome
 
